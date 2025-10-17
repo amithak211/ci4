@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Build application
-        run: echo"Building the Application ..."
+        run: echo"Building the application..."
 
   test:
     runs-on: ubuntu-latest
@@ -44,7 +44,7 @@ jobs:
         uses: action/checkout@v4
 
       - name: Build application
-        run: echo"Building the Application ..."
+        run: echo"Building the application..."
 
   
     
